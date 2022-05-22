@@ -1,0 +1,78 @@
+/*Colors and fonts*/
+body{
+	background-color:rgb(218, 184, 139) ;
+	color:rgb(183, 202, 219);
+	font-family: Times, serif; 
+	font-size: 20px;
+	line-height: 2;
+	font-weight: bold
+ }
+
+ h1,h2 {
+ 	font-size: 40px;
+ 	font-weight: bold;
+ 	font-family: Times, serif;
+ 	text-align: center;
+ }
+ h3 {
+ 	font-size: 25px;
+ 	font-weight: 900;
+ 	text-align: left;
+ 	padding-left: 15px;
+  }
+a{text-decoration: none;
+color:rgb(183, 202, 219);
+font-weight: bold;
+}
+a:hover{ color:rgb(218, 184, 139) 
+}
+
+
+/*Custom design with class*/
+.container{ 
+ width: 960px;
+ margin: 0px auto
+}
+
+@media(max-width:720px){
+	.container{
+		width:600px;
+	}
+}
+@media(max-width:540px){
+	.container{
+		width:400px;
+	}
+}
+
+
+
+.card-Pink{
+	background:rgb(243, 233, 221);
+	margin:20px 0px; 
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	text-align: center;	
+}
+
+.img-circle{
+	height: 300px;
+	width: 200px;
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: rgb(218, 184, 139);
+	color: rgb(183, 202, 219);
+	padding: 5px 15px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding:5px;
+}
+.list-inline i{
+	font-size: 50px;
+}
